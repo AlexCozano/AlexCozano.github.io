@@ -1,0 +1,65 @@
+.jumbotron { 
+    color: rgb(23, 23, 151);
+    background-image: url("./img/fondo.jpeg");
+    overflow: hidden;
+    background-position: center, center; 
+;
+} 
+.fotoperfil {
+    margin-top: 1.5%;
+    border-radius: 25%;
+    padding: 10px, 10px, 10px, 10px;
+}
+
+.redesociales {
+    display: inline-flex;
+}
+
+.form-group {
+
+}
+
+
+.body {
+    background-color: rgb(151, 151, 250);
+    padding: 1em 0;
+    padding-bottom: 3em;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+   
+}
+
+.container_flex {
+    display: flex;
+    flex-direction: column;
+}
+.container-fluid {
+    background-color: #0d6efd;
+    color: white;
+    text-align: center;
+
+}
+
+.page-header {
+    color: #004173;
+    padding: 1em 0;
+    display: grid;
+   
+    grid-template-rows: auto 1fr auto;
+
+}
+
+.footer {
+    background-color: #0d6efd;
+    padding: 1em 0;
+    text-align: center;
+  
+
+    .quiensoy {
+        padding: 1em 0;
+        padding-bottom: 3em;
+        min-height: 100vh;
+
+
+    }
